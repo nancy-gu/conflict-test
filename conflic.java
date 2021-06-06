@@ -13,7 +13,7 @@ class conflict{
     }
     public static void main(String[] args) {
         int arr[] = new int[]{1,6,2,2,5};
-        BubbleSort.BubbleSort(arr);
+        BubbleSort.BubbleSort(arr);//conflict test
         System.out.println(Arrays.toString(arr));
     }
 	
